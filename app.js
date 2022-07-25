@@ -4,7 +4,7 @@ const request = require('request');
 
 const app = express();
 
-app.use("view engine", "ejs");
+app.set('view engine', 'ejs');
 
 app.get("/", function(req, res){
 
